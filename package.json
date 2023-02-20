@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
+		"url": "https://github.com/SKyletoft/VS19-dark-plus-syntax.git"
 	},
 	"scripts": {
 		"build": "node index.js",
