@@ -1,4 +1,7 @@
 A mix between Visual Studio 2019 Dark and dark-plus-syntax.
 
-All the edits of dark-plus-syntax together with VS19's three shades of
-green for different types of types
+All the edits of
+[dark-plus-syntax](https://github.com/tcd/dark-plus-syntax) together
+with
+[VS19](https://github.com/OmniSharp/omnisharp-vscode/blob/master/themes/vs2019_dark.json)'s
+three shades of green for different types of types
