@@ -1,0 +1,47 @@
+{
+	"name": "theme-custom-colour",
+	"displayName": "Visual Studio 2019 Dark plus syntax",
+	"description": "VS2019's default dark theme, but just a little bit better.",
+	"version": "0.0.1",
+	"publisher": "skyletoft",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
+	},
+	"scripts": {
+		"build": "node index.js",
+		"watch": "watch 'npm run build' src",
+		"publish": "vsce publish",
+		"test": "true"
+	},
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Visual Studio 2019 Dark plus syntax",
+				"uiTheme": "vs-dark",
+				"path": "./theme/vs2019_dark_plus_syntax.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"watch": "^1.0.2",
+		"write-json-file": "^2.2.0"
+	},
+	"galleryBanner": {
+		"color": "#569cd6",
+		"theme": "dark"
+	},
+	"icon": "assets/128.png",
+	"__metadata": {
+		"id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b70",
+		"publisherId": "564ecb85-8c09-42fc-b2da-902737b2e744",
+		"publisherDisplayName": "skyletoft"
+	}
+}
